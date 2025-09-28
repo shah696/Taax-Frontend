@@ -60,7 +60,7 @@ function HeroOne() {
         </div>
 
         {/* Right Side (Video) */}
-        <div className="h-[220px] w-[378px] sm:h-[260px] sm:w-[420px] md:h-[210px] md:w-[320px] lg:h-[240px] lg:w-[420px] rounded-[25px] overflow-hidden mx-auto md:mx-0 justify-self-end mb-[120px]">
+        <div className="h-[220px] w-[270px] sm:h-[260px] sm:w-[420px] md:h-[210px] md:w-[320px] lg:h-[240px] lg:w-[420px] rounded-[25px] overflow-hidden mx-auto md:mx-0 justify-self-end mb-[120px]">
           <iframe
             className="h-full w-full"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
