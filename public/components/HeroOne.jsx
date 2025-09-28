@@ -7,18 +7,18 @@ import React from "react";
 function HeroOne() {
   return (
     <div
-      className="relative bg-cover bg-[#F4F8FF] bg-center min-h-[90vh] flex flex-col items-center justify-start pb-12"
-      style={{ backgroundImage: "url('/Images/bg1.png')" }}
+      className="relative bg-cover  bg-center min-h-[90vh] flex flex-col items-center justify-start pb-12"
+      style={{ backgroundImage: "url('/icons/bg1.png')" }}
     >
       {/* Content Wrapper */}
-      <div className="z-10 grid grid-cols-1 md:grid-cols-2 items-center w-full px-4 md:px-8 lg:px-[110px] mt-24 lg:mt-48 gap-10">
+      <div className="z-10 grid grid-cols-1 md:grid-cols-2 items-center w-full px-4 md:px-8 lg:px-[110px] mt-24 lg:mt-38 gap-10">
         {/* Left Side (Text) */}
         <div className="text-black max-w-xl mx-auto md:mx-0 text-start md:text-left">
           <h1 className="font-bold text-[18px]">
             #1 Marketplace App and Practice Management Platform
           </h1>
 
-          <p className="text-[22px] sm:text-[28px] lg:text-[36px] font-semibold mt-6 leading-snug">
+          <p className="text-[32px] sm:text-[36px] lg:text-[46px] font-semibold mt-6 leading-snug">
             Powerful two-sided platform for practice{" "}
             <span className="text-[#00A25D] font-semibold">
               management and client
@@ -60,7 +60,7 @@ function HeroOne() {
         </div>
 
         {/* Right Side (Video) */}
-        <div className="h-[220px] w-[270px] sm:h-[260px] sm:w-[420px] md:h-[210px] md:w-[320px] lg:h-[240px] lg:w-[420px] rounded-[25px] overflow-hidden mx-auto md:mx-0 justify-self-end mb-[120px]">
+        <div className="h-[220px] w-full sm:h-[260px] sm:w-[420px] md:h-[210px] md:w-[360px] lg:h-[240px] lg:w-[420px] rounded-[25px] overflow-hidden mx-auto md:mx-0 justify-self-end mb-[20px] md:mb-[240px]">
           <iframe
             className="h-full w-full"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
@@ -71,7 +71,7 @@ function HeroOne() {
       </div>
 
       {/* ✅ Now Section */}
-      <div className="text-center text-[#000000] text-[20px] sm:text-[22px] font-bold mt-10 z-10 px-4">
+      <div className="text-center text-[#000000] text-[20px] sm:text-[22px] font-bold mt-2 md:mt-10 z-10 px-4">
         <p>Transform your business: Our numbers speak for themselves</p>
       </div>
 

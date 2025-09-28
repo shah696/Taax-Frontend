@@ -6,9 +6,9 @@ function HeroFive() {
     <div>
       <div className=" bg-[#F3F6F6] px-4 lg:px-26 pb-12">
         <div className="flex  flex-col lg:flex-row lg-flex justify-between gap-4">
-          <div className="flex flex-col mt-28 justify-center items-center">
+          <div className="flex flex-col mt-16 md:mt-28 justify-center items-center">
             <div>
-              <h1 className="text-[#000000] text-[36px] font-bold">
+              <h1 className="text-[#000000] text-[24px] md:text-[36px] font-bold">
                 We are your partner in business
                 <br /> growth.
               </h1>
@@ -24,7 +24,7 @@ function HeroFive() {
               </p>
             </div>
           </div>
-          <div className="mt-24 items-center justify-center  flex">
+          <div className="mt-16 md:mt-24 items-center justify-center  flex">
             <Image
               src="/icons/businessImg.png"
               alt="Business"
@@ -60,7 +60,7 @@ function HeroFive() {
               <div className="mt-10 flex flex-col gap-6 w-full">
                 {/* Item 1 */}
                 <div className="flex flex-col">
-                  <h2 className="text-lg font-semibold flex items-center gap-2">
+                  <h2 className="text-lg font-semibold flex items-center gap-2 text-[#000000]">
                     <span className="text-xl font-bold">•</span>
                     Effortless Marketing:
                   </h2>
@@ -72,7 +72,7 @@ function HeroFive() {
 
                 {/* Item 2 */}
                 <div className="flex flex-col">
-                  <h2 className="text-lg font-semibold flex items-center gap-2">
+                  <h2 className="text-lg font-semibold flex items-center gap-2 text-[#000000]">
                     <span className="text-xl font-bold">•</span>
                     Streamlined Workflow:
                   </h2>
@@ -84,7 +84,7 @@ function HeroFive() {
 
                 {/* Item 3 */}
                 <div className="flex flex-col">
-                  <h2 className="text-lg font-semibold flex items-center gap-2">
+                  <h2 className="text-lg font-semibold flex items-center gap-2 text-[#000000]">
                     <span className="text-xl font-bold">•</span>
                     Time-Saving Tools:
                   </h2>

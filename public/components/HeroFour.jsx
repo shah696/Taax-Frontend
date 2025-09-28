@@ -15,10 +15,10 @@ function HeroFour() {
   ];
   return (
     <div className="  bg-[#F4F8FF]">
-      <h1 className="pt-14 text-center font-inter text-[#00A25D] font-bold text-[22px] leading-[100%] align-middle">
+      <h1 className="pt-14 text-center font-inter text-[#00A25D] font-bold text-[18px]  md:text-[22px] leading-[100%] align-middle">
         End to End Client Management
       </h1>
-      <p className=" text-[36px] font-bold text-center pt-3 px-8 text-[#000000]">
+      <p className="text-[24px] md:text-[36px] font-bold text-center pt-3 px-8 text-[#000000]">
         Seamless workflow experience
       </p>
 
@@ -46,10 +46,10 @@ function HeroFour() {
 
       {/* next */}
 
-      <div className="px-4 md:px-16 lg:px-24 py-12">
+      <div className="px-4 md:px-16 lg:px-24 py-6 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left Box */}
-          <div className="rounded-[20px] bg-[#FFFFFF] p-10">
+          <div className="rounded-[20px] bg-[#FFFFFF] p-2 md:p-10">
             <h3 className="font-inter font-semibold text-[28px] md:text-[32px] leading-[120%] text-[#000000]">
               Create boards for smarter <br />
               project workflow
@@ -88,7 +88,14 @@ function HeroFour() {
           </div>
 
           {/* Right Box */}
-          <div className="rounded-[20px] h-[300px] md:h-[500px] border mt-3"></div>
+          <div className="rounded-[20px] h-[311px] md:h-[500px]  mt-3">
+            <Image
+              src="/icons/ss2.png"
+              alt="SS2"
+              width={1000}
+              height={1000}
+            />
+          </div>
         </div>
       </div>
 

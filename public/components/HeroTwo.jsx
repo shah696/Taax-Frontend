@@ -31,37 +31,36 @@ function HeroTwo() {
       {/* ✅ White Box Section */}
       <div className="relative w-full px-4 md:px-8  lg:px-[114px] mt-8 md:mt-12">
         {/* Nav Boxes Container */}
-      <div className="flex w-full shadow-md border border-gray-200 overflow-x-auto scrollbar-hide ">
-  {navItems.map((item, index) => (
-    <button
-      key={item.id}
-      onClick={() => setActive(item.id)}
-      className={`flex-shrink-0 flex-1 flex flex-col items-center justify-center border-r border-gray-200 transition-all duration-300
+        <div className="flex w-full shadow-md border border-gray-200 overflow-x-auto scrollbar-hide ">
+          {navItems.map((item, index) => (
+            <button
+              key={item.id}
+              onClick={() => setActive(item.id)}
+              className={`flex-shrink-0 flex-1 flex flex-col items-center justify-center border-r border-gray-200 transition-all duration-300
         ${
           active === item.id
             ? "bg-white h-[113px] -mt-[13px] z-10  rounded-t-[15px]"
             : "bg-gray-100 h-[100px] hover:bg-gray-200"
         }
         ${index === navItems.length - 1 ? "border-r-0" : ""}`}
-      style={{ minWidth: "140px" }} 
-    >
-      <Image
-        src={item.src}
-        alt={item.alt}
-        width={active === item.id ? 40 : 30}
-        height={active === item.id ? 40 : 30}
-      />
-      <p
-        className={`mt-2 text-sm font-medium ${
-          active === item.id ? "text-black" : "text-gray-500"
-        }`}
-      >
-        {item.title}
-      </p>
-    </button>
-  ))}
-</div>
-
+              style={{ minWidth: "140px" }}
+            >
+              <Image
+                src={item.src}
+                alt={item.alt}
+                width={active === item.id ? 40 : 30}
+                height={active === item.id ? 40 : 30}
+              />
+              <p
+                className={`mt-2 text-sm font-medium ${
+                  active === item.id ? "text-black" : "text-gray-500"
+                }`}
+              >
+                {item.title}
+              </p>
+            </button>
+          ))}
+        </div>
 
         {/* Body Box */}
         <div className="bg-white w-full h-auto border border-t-0 border-gray-200 rounded-b-[15px] shadow-md -mt-[1px] p-6">
@@ -105,29 +104,12 @@ function HeroTwo() {
             </div>
 
             {/* Right Side Box */}
-            <div className="w-full max-w-[610px] h-[375px] bg-white border border-gray-300 rounded-[20px] shadow-md overflow-hidden mx-auto">
-              {/* Top Half with Background Image */}
-              <div
-                className="relative h-1/2 w-full bg-cover bg-center"
-                style={{ backgroundImage: "url('/icons/cover2.png')" }}
-              >
-                {/* Overlay Text */}
-                <div className="absolute top-6 left-1/2 transform -translate-x-1/2 text-center">
-                  <h2 className="text-white text-[20px] font-bold">
-                    Search Financial Service Professionals
-                  </h2>
-                </div>
-              </div>
-
-              {/* Bottom Half with Inputs + Button */}
-              <div className="flex flex-col items-center justify-center gap-4 h-1/2 px-6">
-               
-              </div>
+            <div className="mt-12 md:mt-8 w-full max-w-[610px] h-[214px] md:h-[350px]   overflow-hidden mx-auto">
+              <Image src="/icons/ss.png" alt="SS" width={1000} height={1000} />
             </div>
           </div>
 
-          {/* Button below grid */}
-          <div></div>
+          
         </div>
       </div>
     </div>
