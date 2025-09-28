@@ -5,14 +5,14 @@ function HeroThree() {
   return (
     <div className="pb-12 bg-[#F3F3F3] ">
       <div className=" mx-auto text-center px-4 md:px-14">
-        <h1 className="pt-12  font-medium text-[26px] md:text:[36px] ">
+        <h1 className="pt-12 text-[#000000] font-medium text-[26px] md:text:[36px] ">
           Experience the Power of the
           <span className="font-bold text-[#00A25D]">
             {" "}
             #1 Marketplace Search App
           </span>
           <br />
-          <span className="block mt-1">
+          <span className="block mt-1 text-[#000000]">
             Grow your business and expand your industry reach.
           </span>
         </h1>
@@ -50,7 +50,7 @@ function HeroThree() {
       <h1 className="pt-14 text-center font-inter text-[#00A25D] font-bold text-[28px] leading-[100%] align-middle">
         Recent TAAX APP Listings
       </h1>
-      <p className=" text-[16px] font-bold text-center pt-6">
+      <p className=" text-[16px] font-bold text-center pt-6 text-[#000000]">
         Your membership includes a Live Business profile on TAAX APP
       </p>
 

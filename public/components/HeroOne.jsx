@@ -7,11 +7,11 @@ import React from "react";
 function HeroOne() {
   return (
     <div
-      className="relative bg-cover bg-center min-h-[90vh] flex flex-col items-center justify-start"
+      className="relative bg-cover bg-[#F4F8FF] bg-center min-h-[90vh] flex flex-col items-center justify-start pb-12"
       style={{ backgroundImage: "url('/Images/bg1.png')" }}
     >
       {/* Content Wrapper */}
-      <div className="z-10 grid grid-cols-1 md:grid-cols-2 items-center w-full px-4 md:px-8 lg:px-[110px] mt-10 lg:mt-[100px] gap-10">
+      <div className="z-10 grid grid-cols-1 md:grid-cols-2 items-center w-full px-4 md:px-8 lg:px-[110px] mt-24 lg:mt-48 gap-10">
         {/* Left Side (Text) */}
         <div className="text-black max-w-xl mx-auto md:mx-0 text-start md:text-left">
           <h1 className="font-bold text-[18px]">

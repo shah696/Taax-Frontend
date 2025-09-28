@@ -17,7 +17,7 @@ function HeroTwo() {
   const [active, setActive] = useState(1);
   return (
     <div
-      className="mt-12 pb-12 relative bg-cover bg-center  flex flex-col items-center justify-start"
+      className=" pb-12 relative bg-cover bg-center  flex flex-col items-center justify-start"
       style={{ backgroundImage: "url('/icons/1920 bgg.png')" }}
     >
       <p className="mt-[50px] md:mt-[60px] text-[#FFB800] font-inter font-semibold text-center text-[22px] leading-[100%] tracking-[0%] uppercase align-middle">

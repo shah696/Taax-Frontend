@@ -18,7 +18,7 @@ function HeroFour() {
       <h1 className="pt-14 text-center font-inter text-[#00A25D] font-bold text-[22px] leading-[100%] align-middle">
         End to End Client Management
       </h1>
-      <p className=" text-[36px] font-bold text-center pt-3 px-8">
+      <p className=" text-[36px] font-bold text-center pt-3 px-8 text-[#000000]">
         Seamless workflow experience
       </p>
 
