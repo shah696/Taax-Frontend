@@ -136,14 +136,15 @@ function HeroThree() {
                 </h1>
 
                 {/* Address Line + Horizontal Pipe */}
-                <div className="flex items-center gap-2 mt-2 overflow-hidden text-ellipsis whitespace-nowrap">
+                <div className="flex items-center  gap-2 mt-2 overflow-hidden text-ellipsis whitespace-nowrap">
                   <Image
                     src="/icons/address.png"
                     alt="location"
-                    width={28}
-                    height={28}
+                    width={100}
+                    height={100}
+                    className="w-4 h-4" 
                   />
-                  <span className="text-sm text-gray-600">
+                  <span className="text-sm  text-gray-600">
                     Street 4, Main town, NYC, 444000, NY
                   </span>
                   <span className="mx-2 text-gray-400">|</span>

@@ -33,10 +33,10 @@ function HeroOne() {
 
           {/* Buttons */}
           <div className="flex sm:flex-row gap-4 sm:gap-6 mt-6 justify-start md:justify-start">
-            <button className="w-full sm:w-[200px] h-[50px] sm:h-[55px] bg-[#00A25D] text-white text-sm font-bold rounded-full hover:bg-[#00914F] transition">
+            <button className="cursor-pointer w-full sm:w-[200px] h-[50px] sm:h-[55px] bg-[#00A25D] text-white text-sm font-bold rounded-full hover:bg-[#00914F] transition">
               Free Trial
             </button>
-            <button className="w-full sm:w-[200px] h-[50px] sm:h-[55px] border border-[#00A25D] rounded-full text-black text-sm font-bold hover:bg-[#00A25D] hover:text-white transition">
+            <button className="cursor-pointer w-full sm:w-[200px] h-[50px] sm:h-[55px] border border-[#00A25D] rounded-full text-black text-sm font-bold hover:bg-[#00A25D] hover:text-white transition">
               Request Demo
             </button>
           </div>

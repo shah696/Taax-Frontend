@@ -69,7 +69,7 @@ export default function Navbar() {
             Free Trial
           </button>
 
-          <button className="hover:underline flex justify-center items-center gap-2">
+          <button className="hover:underline cursor-pointer flex justify-center items-center gap-2">
             <Image
               src="/icons/profile.png"
               alt="profile"
@@ -153,14 +153,14 @@ export default function Navbar() {
             Free Trial
           </button>
 
-          <button className="hover:underline flex justify-start items-center gap-2">
+          <button className="hover:underline cursor-pointer flex justify-start items-center gap-2">
             <Image
               src="/icons/profile.png"
               alt="profile"
               width={15}
               height={15}
             />
-            <p className="text-black">Login</p>
+            <p className="text-black ">Login</p>
           </button>
         </div>
       </div>

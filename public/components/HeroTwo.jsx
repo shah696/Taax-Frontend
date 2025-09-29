@@ -36,7 +36,7 @@ function HeroTwo() {
             <button
               key={item.id}
               onClick={() => setActive(item.id)}
-              className={`flex-shrink-0 flex-1 flex flex-col items-center justify-center border-r border-gray-200 transition-all duration-300
+              className={`flex-shrink-0 flex-1 flex flex-col items-center justify-center border-r border-gray-200 transition-all duration-300 cursor-pointer
         ${
           active === item.id
             ? "bg-white h-[113px] -mt-[13px] z-10  rounded-t-[15px]"
@@ -98,7 +98,7 @@ function HeroTwo() {
                   </div>
                 ))}
               </div>
-              <button className="mt-8 hidden md:block font-bold w-full sm:w-[200px] h-[50px] sm:h-[55px] bg-[#00A25D] text-white text-sm rounded-full hover:bg-[#00914F] transition">
+              <button className="cursor-pointer mt-8 hidden md:block font-bold w-full sm:w-[200px] h-[50px] sm:h-[55px] bg-[#00A25D] text-white text-sm rounded-full hover:bg-[#00914F] transition">
                 View Details
               </button>
             </div>

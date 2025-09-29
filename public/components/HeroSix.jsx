@@ -4,7 +4,7 @@ import React from "react";
 function HeroSix() {
   return (
     <div>
-      <div className="h-[736px] bg-[#F4F8FF] px-4 lg:px-26  ">
+      <div className=" bg-[#F4F8FF] px-4 lg:px-26  pb-12">
         <div className="pt-5">
           <p className="text-[24px] md:text-[36px] text-[#000000] font-bold text-center pt-3 px-8">
             Seamless data exchange between the{" "}
@@ -12,7 +12,7 @@ function HeroSix() {
             <span className="text-[#00A25D]">CUSTOMER</span> apps
           </p>
         </div>
-        <div className="flex mt-7 lg:flex-row gap-2 md:gap-6 overflow-x-auto scrollbar-hide pb-24">
+        <div className="flex mt-7 lg:flex-row gap-2 md:gap-6 overflow-x-auto scrollbar-hide ">
           {/* First Card */}
           <div
             className="min-w-[95%] rounded-[20px] h-full lg:h-[440px] overflow-hidden  lg:min-w-[48%] bg-cover bg-center relative"
@@ -65,7 +65,7 @@ function HeroSix() {
                   {/* Store Buttons */}
                   <div className="flex flex-col gap-3 mt-4">
                     {/* App Store Button */}
-                    <button className="h-[36px] flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow hover:bg-gray-100 transition">
+                    <button className="h-[36px] cursor-pointer flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow hover:bg-gray-100 transition">
                       <Image
                         src="/icons/apple.png"
                         alt="Apple"
@@ -77,7 +77,7 @@ function HeroSix() {
                     </button>
 
                     {/* Play Store Button */}
-                    <button className="h-[36px] w-[142px] flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow hover:bg-gray-100 transition">
+                    <button className="h-[36px] w-[142px] cursor-pointer flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow hover:bg-gray-100 transition">
                       <Image
                         src="/icons/play.png"
                         alt="Play Store"
@@ -157,7 +157,7 @@ function HeroSix() {
                   {/* Store Buttons */}
                   <div className="flex flex-col gap-3 mt-4">
                     {/* App Store Button */}
-                    <button className="h-[36px] flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow hover:bg-gray-100 transition">
+                    <button className="h-[36px] cursor-pointer flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow hover:bg-gray-100 transition">
                       <Image
                         src="/icons/apple.png"
                         alt="Apple"
@@ -169,7 +169,7 @@ function HeroSix() {
                     </button>
 
                     {/* Play Store Button */}
-                    <button className="h-[36px] w-[142px] flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow hover:bg-gray-100 transition">
+                    <button className="h-[36px] cursor-pointer w-[142px] flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow hover:bg-gray-100 transition">
                       <Image
                         src="/icons/play.png"
                         alt="Play Store"
