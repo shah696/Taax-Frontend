@@ -34,8 +34,8 @@ function HeroFive() {
           </div>
         </div>
         {/* next */}
-        <div className="flex flex-col-reverse lg:flex-row justify-between gap-12 lg:gap-48">
-          <div className="mt-10 md:mt-64 items-center justify-center flex">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-48">
+          <div className="mt-4 lg:mt-64 items-center justify-center flex">
             <Image
               src="/icons/mobileDollar.png"
               alt="Business"

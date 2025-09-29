@@ -23,7 +23,7 @@ function HeroSix() {
 
             {/* Content */}
             <div className="relative flex flex-col mt-1 items-center text-white px-6 py-10">
-              <h1 className="mt-4 text-3xl md:text-[32px] font-bold text-center">
+              <h1 className="mt-1 md:mt-4 text-3xl md:text-[32px] font-bold text-center">
                 Client mobile app
               </h1>
               <p className="mt-4 max-w-2xl text-center text-[#FFFFFF] text-[16px]">
